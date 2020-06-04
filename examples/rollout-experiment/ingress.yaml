@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: localhost
+  - host: rollout-demo.dev
     http:
       paths:
       - path: /
