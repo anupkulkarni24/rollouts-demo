@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   externalIPs:
-  - 192.1681.1.6
+  - 192.168.1.6
   rules:
   - host: rollout-demo.dev
     http:
