@@ -8,10 +8,10 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: rollout-demo.dev
+  - host: rollout-demo.dev.argoproj.io
     http:
       paths:
       - path: /
         backend:
           serviceName: rollout-demo
-          servicePort: 8082
+          servicePort: 80
