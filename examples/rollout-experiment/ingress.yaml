@@ -7,6 +7,8 @@ metadata:
     kubernetes.io/ingress.class: nginx
     ingress.kubernetes.io/app-root: /
 spec:
+  externalIPs:
+  - 192.1681.1.6
   rules:
   - host: rollout-demo.dev
     http:
